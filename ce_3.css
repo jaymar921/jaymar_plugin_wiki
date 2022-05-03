@@ -1,0 +1,177 @@
+body{
+	color: black;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.all{
+	position: relative;
+	display: block;
+	border: 0;
+	padding: 0;
+}
+
+.all .banner{
+	border: 1px solid transparent;
+	width: 100vw;
+	height: 400px;
+	background-image: url('images/banner.jpg');
+	background-position: center;
+}
+
+.all .banner .banner_header{
+	position: relative;
+	margin: 0 30% 0 30%;
+	border: 10px solid whitesmoke;
+	border-radius: 20px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 100px;
+}
+
+.all .banner .banner_header h1,h3{
+	color: white;
+}
+
+.all .banner .banner_header h1{
+	font-size: 3em;
+	transition: 500ms;
+}
+.all .banner .banner_header h3{
+	font-size: 1.5em;
+	transition: 500ms;
+}
+
+
+.all .contents{
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.all .contents .content{
+	background-color: rgba(0, 0, 0, 0.8);
+	position: relative;
+	display: flex;
+	transition: 500ms;
+
+}
+
+.all .contents .content .sub-content{
+	text-align: center;
+	position: relative;
+	display: block;
+	margin: auto;
+	padding: 50px;
+	width: 60vw;
+	transition: 500ms;
+}
+
+.height_increase{
+	height: 500px;
+}
+
+.all .contents .content .sub-content h1,p{
+	color: white;
+}
+.all .contents .content .sub-content h1{
+	text-align: center;
+	font-size: 2.0em;
+}
+
+.all .contents .content .sub-content img{
+	border-radius: 10px;
+	width: 64px;
+	height: 64px;
+}
+
+table{
+	margin: auto;
+	padding: 10px;
+	border-radius: 20px;
+}
+th{
+	margin: auto;
+	color: white;
+	font-size: 1.5em;
+	padding:  0 20px 0 20px;
+}
+td{
+	margin: auto;
+	text-align: left;
+	color: grey;
+	font-size: 1.5em;
+	padding:  10px 20px 10px 20px;
+}
+
+.all .contents .content .sub-content p{
+	justify-content: center;
+	font-size: 1.5em;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+  	white-space: normal; //this is the one that gets you all the time
+	transition: 500ms;
+}
+
+@media only screen and (max-width: 800px)  {
+	.all .banner .banner_header h1{
+		font-size: 2em;
+	}
+	.all .banner .banner_header h3{
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 600px)  {
+	.all .banner .banner_header h1{
+		font-size: 1.8em;
+	}
+	.all .banner .banner_header h3{
+		font-size: 1.2em;
+	}
+	.all .contents .content .sub-content h1{
+		font-size: 1.5em;
+	}
+	.all .contents .content .sub-content{
+		position: relative;
+		display: block;
+		margin: auto;
+		width: 60vw;
+		text-align: center;
+	}
+	.all .contents .content{
+		background-color: rgba(0, 0, 0, 0.5);
+		position: relative;
+		display: block;
+		overflow: hidden;
+	}
+	.all .contents .content .sub-content p{
+		font-size: 1.0em;
+		overflow-wrap: break-word;
+	  	word-wrap: break-word;
+	  	hyphens: auto;
+	  	white-space: normal; //this is the one that gets you all the time
+	}
+	.all .contents .content .sub-content img{
+		border-radius: 10px;
+		width: 64px;
+		height: 64px;
+	}
+	th{
+		color: white;
+		font-size: 1.0em;
+		padding:  0 10px 0 10px;
+	}
+	td{
+		text-align: left;
+		color: white;
+		font-size: 0.7em;
+		padding:  20px 10px 20px 10px;
+	}
+}
