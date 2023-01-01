@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Custom Enchantments 3 - Wiki</title>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="icon" href="ce3.png" type="image/png">
+	<script defer src="script.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css" />
+</head>
+<body>
+<div class="bg-1"></div>
+<section>
+	<div class="dark-bg"></div>
+	<video class="video" autoplay muted loop>
+		<source src="ce3.mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div class="content noselect">
+		<h1>Custom Enchants 3</h1>
+		<p>JayMar921</p>
+	</div>
+</section>
+<section >
+	<div class="dark-bg"></div>
+	<div class="info max-height-450px">
+		<h1>What is Custom Enchantments 3?</h1>
+		<p class="hidden" style="justify-content: center; ">This plugin is basically an advanced version of the previous custom enchantments 1 and 2 developed by JayMar921. The plugin is so called an advanced plugin because it has a built in Skilling System, Player Classifications, CE Currencies/Quests and an RPG feels in the game. Custom Enchantments 3 is a Premium plugin, if you want to try this plugin for free, click the link below.</p>
+		<br>
+		<a class="customBTN" target="_blank" href="https://www.youtube.com/watch?v=mmI6dvHCf80">(See the description)</a>
+		<br>
+	</div>
+	
+</section>
+<section style="overflow: scroll;">
+	<div class="dark-bg"></div>
+	<div class="center-content">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="info-group noselect">
+					<h1>Skill System</h1>
+					<img src="levelup.png">
+					<p>Skill System is new to Custom Enchants 3, it is used for players to upgrade their skills and focus on what attribute they want to focus. There are three (3) main attributes in the skill system which are STRENGTH, AGILITY, and INTELLIGENCE. The 3 main attributes also has three passive skills and players can only upgrade their passive skills depending on what classification they choose, each attributes can reach to a max level of 200, it cannot be changed.
+		
+						Note that the player can only unlock the class when they reached level 10 and above</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="info-group noselect">
+					<h1>Classification</h1>
+					<img src="wizard.png">
+					<p>Custom Enchantments now adopt RPG feels in-game, it now has classification players for them to focus on specific skill and enchantments(active skill). There are three (3) classification as of now and these are WARRIOR, ARCHER, and WIZARD. For WARRIOR class players, they can only use sword enchantments. For ARCHER class players, they can only use BOW enchantments. For WIZARD class players, they can only use magic enchantments, all players can use fireball. ARMOR/SHIELD/TRIDENT/TOOL enchantments are global.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="info-group noselect">
+					<h1>Currency/Quest</h1>
+					<img src="quest.png">
+					<p>To bring more fun in the game, custom enchants 3 has it's custom currency and quests. Custom Currency (RACO) can be used to buy epic stuff and some enchantments. Quests gives player rewards which can be an Item or RACO currency.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="dark-bg"></div>
+	<div class="info max-height-650px">
+		<h1>Enchantments (Active Skills)</h1>
+		<p style="justify-content: center; white-space:pre-line;">Enchantments and Active Skills can be called interchangeably in the plugin. There are some enchantments that needs a certain class to be used by the players such as the SWORD, BOW and MAGIC enchantments. The plugin default is that, player's can only have one active skill on each swords, bows/crossbows and magic wands which means that the players must decide on what specific enchants they will grind to level up their equipment's active skill. This setting can be turned off in config.yml <a style="color: yellow;" href="https://www.spigotmc.org/resources/102275/" target="_blank">(Premium)</a>
+
+			<a style="color: green;">Note that the Magic Damage is 3 times the physical damage (vanilla damage).</a></p>
+	</div>
+	
+</section>
+<section style="overflow: scroll;">
+	<div class="dark-bg"></div>
+	
+	<div class="center-content noselect">
+		<div style="position: relative;text-align: center; color: rgb(255, 255, 255); z-index: 5;">
+			<h1>Custom Crafting</h1>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="info-group noselect max-height-450px">
+					<h1>Reset Elixir</h1>
+					<img src="elixir.png">
+					<p>Consume to reset player's skill tree and removes player class. Player skill level will not be reset.<br><br></p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="info-group noselect max-height-450px">
+					<h1>Magic Wand</h1>
+					<img src="magic_wand_recipe.png">
+					<p>For Wizards, they must have magic wands to use magic enchantments, it has already a Fireball enchantment for basic use.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="info-group noselect max-height-450px">
+					<h1>Mana Potion</h1>
+					<img src="mana_potion_recipe.png">
+					<p>Mana potions are consumables for players to gain mana. It's best used for Wizard class players.<br><br></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div style="position: relative;text-align: center; color: rgb(255, 255, 255); z-index: 5;">
+		<h1>Commands</h1>
+	</div>
+	<div class="table-container">
+		<table style="background-color: black;">
+			<thead>
+				<th>Command</th>
+				<th>Description</th>
+				<th>OP</th>
+			</thead>
+			<tr>
+				<td>/ce skills</td>
+				<td>Open Skill UI</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>/ce shop</td>
+				<td>Shows the shop list and location</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>/ce shop add [type] [name]</td>
+				<td>Add a shop</td>
+				<td>YES</td>
+			</tr>
+			<tr>
+				<td>/ce shop remove [name]</td>
+				<td>Remove a shop</td>
+				<td>YES</td>
+			</tr>
+			<tr>
+				<td>/ce rank</td>
+				<td>Shows the top 10 player rank</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>/ce allies</td>
+				<td>Shows the player allies in a list</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>/ce allies add [name]</td>
+				<td>Add a player to ally list</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>/ce allies remove [name]</td>
+				<td>Remove a player from ally list</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>/ce info</td>
+				<td>Shows the plugin information</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>/ce setting (v1.0.4)</td>
+				<td>Modify plugin settings</td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+	<div style="position: relative;text-align: center; color: rgb(255, 255, 255); z-index: 5;">
+		<h1>Enchantments List</h1>
+	</div>
+	<div class="table-container">
+		<table style="background-color: black;">
+			<thead>
+				<th>Enchantments</th>
+				<th>Description</th>
+				<th>Applies to</th>
+			</thead>
+			<tr>
+				<td>Life Steal</td>
+				<td>Heal (5% of damage) while attacking</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Bleed</td>
+				<td>Get (10% x level) chance for enemy to bleed</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Critical</td>
+				<td>Deal (30%) more damage to enemy with (5% x level) chance</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Poison</td>
+				<td>Poison your enemy</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Mana Steal</td>
+				<td>Steal (⚡2 x level) mana from enemy players, temporarily slow their mana regen by 2s</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Execute</td>
+				<td>Deal huge damage to enemy with low health. (damage + 50% x level)</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Light Spirit</td>
+				<td>Deals (damage + (5 x level)) magic damage to the enemy by (10% x level) chance. Cost ⚡10 mana (default).</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Soul Eater</td>
+				<td>Killing mobs give 1 soul while 2 souls for player kills. Each souls deals (0.0049) damage and that will be 250 damage on Max soul achieved which is 50,000. When a player dies with the soul eater on its sword in its inventory, it loses 250 souls upon death.</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Wind Strike</td>
+				<td>Dashes on enemy and deal small magic damage. Cost ⚡4.5 mana (default).</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Wind Slasher</td>
+				<td>Increase player attack-speed. If player acquired level 40 on AGILITY, it get 10% chance to summon a tornado on the target.</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Juggernaut</td>
+				<td>Deal 5%-40% armor penetration</td>
+				<td>Swords</td>
+			</tr>
+			<tr>
+				<td>Sudden Blow</td>
+				<td>Has (10% x level) chance to stun and blind the enemy for 1s</td>
+				<td>Trident</td>
+			</tr>
+			<tr>
+				<td>Hail Storm</td>
+				<td>Cast a hail storm in the area. Each Hail Ice deals (5 x level) magic damage. Cost ⚡20 mana (default).</td>
+				<td>Trident</td>
+			</tr>
+			<tr>
+				<td>Magic Resist</td>
+				<td>Gain Magic Resistance. (3.125% x level)</td>
+				<td>Armor</td>
+			</tr>
+			<tr>
+				<td>Tank</td>
+				<td>Gain Physical Resistance. (3.125% x level)</td>
+				<td>Armor</td>
+			</tr>
+			<tr>
+				<td>Regain</td>
+				<td>Basically it's like a totem of undying but with 200s cooldown (default).</td>
+				<td>Chestplate</td>
+			</tr>
+			<tr>
+				<td>Poisonous Thorns</td>
+				<td>Get (5% x level) chance to poison the attacker.</td>
+				<td>Chestplate</td>
+			</tr>
+			<tr>
+				<td>Freeze</td>
+				<td>Get (10% x level) chance to freeze the attacker.</td>
+				<td>Leggings</td>
+			</tr>
+			<tr>
+				<td>Omni Vamp</td>
+				<td>Get (5% x level) chance to heal (20% of damage) when attacked.</td>
+				<td>Chestplate</td>
+			</tr>
+			<tr>
+				<td>Blindness</td>
+				<td>Get (10%) chance toblind the enemy by 1.5s.</td>
+				<td>Helmet</td>
+			</tr>
+			<tr>
+				<td>Double Jump</td>
+				<td>Jump Twice when sneaking while on air. Cost ⚡3 mana (default).</td>
+				<td>Boots</td>
+			</tr>
+			<tr>
+				<td>Blink</td>
+				<td>Sneak + right click to blink on reachable target location.</td>
+				<td>Boots</td>
+			</tr>
+			<tr>
+				<td>Auto Farm</td>
+				<td>Get (8% x level) chance to plant crops automatically.</td>
+				<td>Hoe</td>
+			</tr>
+			<tr>
+				<td>Vein Miner</td>
+				<td>Mine a chunk of ores.</td>
+				<td>Pickaxe</td>
+			</tr>
+			<tr>
+				<td>Deforestation</td>
+				<td>Cut the whole vertical trunk part of a tree.</td>
+				<td>Axe</td>
+			</tr>
+			<tr>
+				<td>Mana Shield</td>
+				<td>Absorb 10% of damage and consume it as mana when equipped off-hand.</td>
+				<td>Shield</td>
+			</tr>
+			<tr>
+				<td>Sturdy</td>
+				<td>Gain (10% x level) physical damage resistance when equipped off-hand.</td>
+				<td>Shield</td>
+			</tr>
+			<tr>
+				<td>Sharp Arrow</td>
+				<td>Deal (10% x level) more ranged damage.</td>
+				<td>Bow/Crossbow</td>
+			</tr>
+			<tr>
+				<td>Stun</td>
+				<td>Get (10% x level) chance to stun the enemy by 1s.</td>
+				<td>Bow/Crossbow</td>
+			</tr>
+			<tr>
+				<td>Frost Arrow</td>
+				<td>Get (10% x level) chance to slow the enemy by 0.5s + level.</td>
+				<td>Bow/Crossbow</td>
+			</tr>
+			<tr>
+				<td>Focus Fire</td>
+				<td>Gain +2.5% MS and Invisibility for 1s upon a success hit.</td>
+				<td>Bow/Crossbow</td>
+			</tr>
+			<tr>
+				<td>Death Angel</td>
+				<td>Fall a meteorite on land dealing (3 x level) magic damage. Cost ⚡8 mana (default)</td>
+				<td>Bow/Crossbow</td>
+			</tr>
+			<tr>
+				<td>Implant</td>
+				<td>Curses the enemy by chance. Each curse deals (4.5) magic damage</td>
+				<td>Bow/Crossbow</td>
+			</tr>
+			<tr>
+				<td>Death Ray</td>
+				<td>Shoot a laser on target. Multishot will not be effective.</td>
+				<td>Bow/Crossbow</td>
+			</tr>
+
+			<tr>
+				<td>Auto Repair</td>
+				<td>Slowly repair your equipment</td>
+				<td>Weapons/Armors/Tools</td>
+			</tr>
+			<tr>
+				<td>Super Nova</td>
+				<td>Deal (2.5 x level) magic damage to enemies in surrounding area</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Lightning</td>
+				<td>Deal (1.5 x level) magic damage to enemies in surrounding area</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Healing</td>
+				<td>Heals the allies in the surrounding area (Regeneration II effect)</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Levitate</td>
+				<td>Levitate and Deal (2.0 x level) magic damage to enemies in surrounding area</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Nebula</td>
+				<td>Deal (3.5 x level) magic damage to enemies in surrounding area</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Storm</td>
+				<td>Deal (3.5 x level) magic damage to enemies in surrounding area</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Mana Burn</td>
+				<td>Drain (⚡10 x level) mana to enemies in surrounding area</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Fireball</td>
+				<td>Shoot Fireball on target</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Stella (1.0.3)</td>
+				<td>Deals (⚡4.5 x level) magic damage + power 10 explosion on a radius</td>
+				<td>Ultimate bow enchantment</td>
+			</tr>
+			<tr>
+				<td>Farmland (1.0.4)</td>
+				<td>Create a small chunk of farmland</td>
+				<td>Hoe</td>
+			</tr>
+			<tr>
+				<td>Black Hole (1.0.4)</td>
+				<td>Teleports entities to the center, dealing (⚡1.2 x level) magic damage plus 1s slow</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Falling Star (1.0.4)</td>
+				<td>Falls a meteor in a surrounding area, dealing (⚡2.5 x level) magic damage to entities</td>
+				<td>Magic Wand</td>
+			</tr>
+			<tr>
+				<td>Telepathy (1.0.4)</td>
+				<td>Collect dropped item instantly from being mined, (Incompatible with fortune enchant)</td>
+				<td>Tools</td>
+			</tr>
+			<tr>
+				<td>Confusion (1.0.7)</td>
+				<td>Get a (10% x level) chance of confusing the enemy</td>
+				<td>Sword</td>
+			</tr>
+			<tr>
+				<td>Dragon Breath (1.0.7)</td>
+				<td>Deals (2 x level) damage to enemy, inflicting flame on nearby entity (4 blocks)</td>
+				<td>Sword</td>
+			</tr>
+			<tr>
+				<td>Heist (1.0.7)</td>
+				<td>Get (5% x level) chance of stealing (2 x level) RACO coin from enemy</td>
+				<td>Sword</td>
+			</tr>
+			<tr>
+				<td>Anti Heist (1.0.7)</td>
+				<td>Get (15% x level) chance of blocking heist enchantment</td>
+				<td>Chestplate</td>
+			</tr>
+		</table>
+	</div>
+	<div class="center-content noselect">
+		<br><br><br>
+		<div style="position: relative;text-align: center; color: rgb(255, 255, 255); z-index: 5;">
+			<h1>Treasure Items</h1>
+		</div>
+		<div class="info-group noselect max-height-450px">
+			<h1>Reset Elixir</h1>
+			<img src="treasure_item.png" style="width: max-content;height:max-content">
+			<p>Consume to reset player's skill tree and removes player class. Player skill level will not be reset.<br><br></p>
+		</div>
+	</div>
+	<div style="position: relative;text-align: center; color: rgb(255, 255, 255); z-index: 5;">
+		<h1>Treasure Items (1.0.9+)</h1>
+	</div>
+	<div class="table-container">
+		<table style="background-color: black;">
+			<thead>
+				<th>Name</th>
+				<th>Type</th>
+				<th>Abilities</th>
+			</thead>
+			<tr>
+				<td>Lucky Coin</td>
+				<td>Gold Nugget</td>
+				<td>
+					Exp Multiplier: 1.5x<br>
+					Raco Reward: 1
+				</td>
+			</tr>
+			<tr>
+				<td>Villager Coin</td>
+				<td>Emerald</td>
+				<td>
+					Exp Multiplier: 1.9x<br>
+					Raco Reward: 2
+				</td>
+			</tr>
+			<tr>
+				<td>Pirate Coin</td>
+				<td>Gold Nugget</td>
+				<td>
+					Exp Multiplier: 1.8x<br>
+					Raco Reward: 3
+				</td>
+			</tr>
+			<tr>
+				<td>Rotten Corpse</td>
+				<td>Rotten Flesh</td>
+				<td>
+					Health Regen: 0.25 hp/s<br>
+					Physical Defense: 0.1x
+				</td>
+			</tr>
+			<tr>
+				<td>Zakraf Shield</td>
+				<td>Shield</td>
+				<td>
+					Magic Defense: 0.3x<br>
+					Physical Defense: 0.3x
+				</td>
+			</tr>
+			<tr>
+				<td>Shell of the Sea</td>
+				<td>Nautilus Shell</td>
+				<td>
+					Mana Regen: 2 mana/s<br>
+					Cooldown Reduction: 5s
+				</td>
+			</tr>
+			<tr>
+				<td>Shell of the Dark Sea</td>
+				<td>Nautilus Shell</td>
+				<td>
+					Mana Regen: 4 mana/s<br>
+					Cooldown Reduction: 10<br>
+					Magical Damage: 2⚡
+				</td>
+			</tr>
+			<tr>
+				<td>Sharpened Shears</td>
+				<td>Shears</td>
+				<td>
+					Physical Damage: 1 hp
+				</td>
+			</tr>
+			<tr>
+				<td>Goblin Sword</td>
+				<td>Wooden Sword</td>
+				<td>
+					Physical Damage: 3 hp<br>
+					Exp Multiplier: 1.2x
+				</td>
+			</tr>
+			<tr>
+				<td>Berries of Life</td>
+				<td>Sweet Berries</td>
+				<td>
+					Health Regen: 0.5 hp/s<br>
+					Exp Multiplier: 1.2x
+				</td>
+			</tr>
+			<tr>
+				<td>Fruit of Wisdom</td>
+				<td>Glow Berries</td>
+				<td>
+					Health Regen: 1 hp/s<br>
+					Mana Regen: 0.5 mana/s<br>
+					Exp Multiplier: 1.2x
+				</td>
+			</tr>
+			<tr>
+				<td>Lost Crown</td>
+				<td>Golden Helmet</td>
+				<td>
+					Physical Defense: 0.3x<br>
+					Magical Defense: 0.3x<br>
+					Cooldown Reduction: 2
+				</td>
+			</tr>
+			<tr>
+				<td>Rainbow Lotus (1.18+)</td>
+				<td>Spore Blossom</td>
+				<td>
+					Magical Damage: 2⚡<br>
+					Mana Regen: 2 mana/s<br>
+					Cooldown Reduction: 8s
+				</td>
+			</tr>
+			<tr>
+				<td>Yggdrasil's Divine Fruit</td>
+				<td>Enchanted Golden Apple</td>
+				<td>
+					Health Regen: 2 hp/s<br>
+					Mana Regen: 2 mana/s<br>
+					Physical Defense: 0.7x<br>
+					Magical Defense: 0.7x
+				</td>
+			</tr>
+			<tr>
+				<td>Lost Clock</td>
+				<td>Clock</td>
+				<td>
+					Cooldown Reduction: 20s
+				</td>
+			</tr>
+			<tr>
+				<td>Ancient Demon Skull</td>
+				<td>Wither Skeleton Skull</td>
+				<td>
+					Physical Defense: 0.4x<br>
+					Exp Multiplier: 0.5x
+				</td>
+			</tr>
+			<tr>
+				<td>Dried Fish</td>
+				<td>Cod</td>
+				<td>
+					Health Regen: 0.1 hp/s
+				</td>
+			</tr>
+			<tr>
+				<td>Wildflower Honey</td>
+				<td>Honey Bottle</td>
+				<td>
+					Health Regen: 1.2 hp/s<br>
+					Mana Regen: 1 mana/s
+				</td>
+			</tr>
+			<tr>
+				<td>Death Rose</td>
+				<td>Wither Rose</td>
+				<td>
+					Health Regen: 1.5 hp/s<br>
+					Magical Defense: 0.3x
+				</td>
+			</tr>
+			<tr>
+				<td>Glowing Gemstone</td>
+				<td>Glowstone Dust</td>
+				<td>
+					Mana Regen: 3 mana/s<br>
+					Magical Defense: 0.2x
+				</td>
+			</tr>
+			<tr>
+				<td>Fiberglass Arrow</td>
+				<td>Arrow</td>
+				<td>
+					Exp Multiplier: 1.8x<br>
+					Physical Damage: 3 hp
+				</td>
+			</tr>
+			<tr>
+				<td>Slippers</td>
+				<td>Leather Boots</td>
+				<td>
+					Physical Defense: 0.1x<br>
+					Magical Defense: 0.2x
+				</td>
+			</tr>
+			<tr>
+				<td>Eye of Creeper</td>
+				<td>Ender Eye</td>
+				<td>
+					Physical Defense: 0.3x<br>
+					Magical Defense: 0.5x<br>
+					Magical Damage: 3⚡
+				</td>
+			</tr>
+			<tr>
+				<td>Earth's Essence</td>
+				<td>Grass Block</td>
+				<td>
+					Physical Defense: 0.5x<br>
+					Magical Defense: 0.3x<br>
+					Health Regen: 1.5 hp/s
+				</td>
+			</tr>
+			<tr>
+				<td>Soul Catcher</td>
+				<td>Soul Lantern</td>
+				<td>
+					Mana Regen: 0.8 mana/s<br>
+					Magical Defense: 0.7x<br>
+					Cooldown Reduction: 2s
+				</td>
+			</tr>
+			<tr>
+				<td>Lost Angel Wing</td>
+				<td>Elytra</td>
+				<td>
+					Health Regen: 0.4 hp/s<br>
+					Magical Defense: 0.3x<br>
+					Exp Multiplier: 0.2x
+				</td>
+			</tr>
+			<tr>
+				<td>Soul Absorber</td>
+				<td>Chorus Flower</td>
+				<td>
+					Magical Defense: 0.5x<br>
+					Physical Defense: 0.5x<br>
+					Health Regen: 0.2 hp/s
+				</td>
+			</tr>
+			<tr>
+				<td>Ancient Pickaxe</td>
+				<td>Stone Pickaxe</td>
+				<td>
+					Exp Multiplier: 0.3x
+				</td>
+			</tr>
+			<tr>
+				<td>Ancient Blood</td>
+				<td>Redstone</td>
+				<td>
+					Health Regen: 0.2 hp/s
+				</td>
+			</tr>
+			<tr>
+				<td>Blue Gem</td>
+				<td>Lapis Lazuli</td>
+				<td>
+					Magical Defense: 0.2x<br>
+					Mana Regen: 0.1 mana/s
+				</td>
+			</tr>
+		</table>
+	</div>
+	<br><br><br><br><br><br><br>
+</section>
+</body>
+</html>
